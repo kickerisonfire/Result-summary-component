@@ -1,0 +1,28 @@
+@media only screen and (min-width: 768px) {
+  body {
+    /* background-color: #ecf2ff; */
+  }
+
+  .main-container {
+    /* border: 2px solid blueviolet; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 700px;
+    border-radius: 32px;
+}
+
+  .result-container {
+    height: 100%;
+    border-radius: 32px;
+  }
+
+  .performance {
+    max-width: 60%;
+    margin-top: -30px;
+  }
+
+  .summary-container {
+    background-color: white;
+    padding: 30px;
+  }
+}
